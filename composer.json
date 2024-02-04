@@ -1,13 +1,18 @@
 {
-    "name": "buyanauskas/hexlet-php",
-    "description": "Hexlet learning project of setting up the environment course",
-    "authors": [
-        {
-            "name": "BuyanauskasAA",
-            "email": "Buyanauskas@gmail.com"
-        }
-    ],
-    "require": {
-        "tightenco/collect": "^9.52"
+  "name": "buyanauskas/hexlet-php",
+  "autoload": {
+    "files": [
+        "src/Runner.php"
+    ]
+  },
+  "description": "Hexlet learning project of setting up the environment course",
+  "authors": [
+    {
+      "name": "BuyanauskasAA",
+      "email": "Buyanauskas@gmail.com"
     }
+  ],
+  "require": {
+    "tightenco/collect": "^9.52"
+  }
 }
