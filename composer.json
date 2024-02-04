@@ -1,10 +1,5 @@
 {
   "name": "buyanauskas/hexlet-php",
-  "autoload": {
-    "files": [
-        "src/Runner.php"
-    ]
-  },
   "description": "Hexlet learning project of setting up the environment course",
   "authors": [
     {
@@ -12,7 +7,18 @@
       "email": "Buyanauskas@gmail.com"
     }
   ],
+  "autoload": {
+    "files": [
+        "src/Runner.php"
+    ]
+  },
+  "scripts": {
+    "phpcs": "phpcs"
+  },
   "require": {
     "tightenco/collect": "^9.52"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.8"
   }
 }
