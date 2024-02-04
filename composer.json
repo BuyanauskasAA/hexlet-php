@@ -1,0 +1,11 @@
+{
+    "name": "buyanauskas/hexlet-php",
+    "description": "Hexlet learning project of setting up the environment course",
+    "authors": [
+        {
+            "name": "BuyanauskasAA",
+            "email": "Buyanauskas@gmail.com"
+        }
+    ],
+    "require": {}
+}
